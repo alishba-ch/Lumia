@@ -19,6 +19,7 @@ ul {
   font-size: 40px;
   margin-left: 90px;
   font-display: auto;
+  margin-right: 220px;
 }
 .navbar {
   position: relative;
@@ -29,12 +30,15 @@ ul {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  margin-right: auto;
   color: #4f5a62;
-  margin-right: 230px;
   white-space: nowrap;
   transition: 0.3s;
 }
-
+.navbar .bi-icons {
+  color: #98a3aa;
+  margin-right: 110px;
+}
 .nav-links {
   display: flex;
   align-items: center;
@@ -77,6 +81,7 @@ a {
 }
 .ctn {
   padding: 10px 15px;
-  background: rgb(0, 222, 238);
+  background: #3498db;
   color: #fff;
+  border-radius: 5px;
 }
