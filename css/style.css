@@ -14,15 +14,25 @@ ul {
 }
 /* Navbar */
 
+.navbar h1 {
+  color: #000000;
+  font-size: 40px;
+  margin-left: 90px;
+  font-display: auto;
+}
 .navbar {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative;
   display: flex;
-  width: 100%;
+  align-items: center;
   justify-content: space-between;
-  padding: 20px;
-  color: #fff;
+  padding: 10px 0 10px 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #4f5a62;
+  margin-right: 230px;
+  white-space: nowrap;
+  transition: 0.3s;
 }
 
 .nav-links {
@@ -44,6 +54,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 .header-content {
   color: #fff;
@@ -55,7 +66,7 @@ header {
 .line {
   width: 150px;
   height: 4px;
-  background: rgb(0, 222, 238);
+  background: #3498db;
   margin: 5px auto;
 }
 a {
