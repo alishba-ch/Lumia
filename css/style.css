@@ -85,3 +85,11 @@ a {
   color: #fff;
   border-radius: 5px;
 }
+
+.what-we-do {
+  text-align: center;
+  padding: 50px 60px;
+  font-size: 50px;
+  font-weight: 100;
+  font-family: Arial;
+}
