@@ -20,6 +20,7 @@ ul {
   margin-left: 90px;
   font-display: auto;
   margin-right: 220px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
 }
 .navbar {
   position: relative;
@@ -68,10 +69,10 @@ header {
   font-size: 7vh;
 }
 .line {
-  width: 150px;
+  width: 160px;
   height: 4px;
   background: #3498db;
-  margin: 5px auto;
+  margin: 5px 0px 12px 61%;
 }
 a {
   text-decoration: none;
@@ -86,10 +87,16 @@ a {
   border-radius: 5px;
 }
 
+.Drop-Down {
+}
+
+/*-- what-we-do --*/
+
 .what-we-do {
   text-align: center;
   padding: 50px 60px;
   font-size: 50px;
-  font-weight: 100;
-  font-family: Arial;
+}
+.what-we-do h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
 }
