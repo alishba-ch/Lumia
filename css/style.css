@@ -87,7 +87,12 @@ a {
   border-radius: 5px;
 }
 
-.Drop-Down {
+.navbar ul li .Drop-Down ul {
+  display: block;
+  position: absolute;
+  left: 14px;
+  margin: 0;
+  z-index: 99;
 }
 
 /*-- what-we-do --*/
@@ -99,4 +104,15 @@ a {
 }
 .what-we-do h4 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
+}
+.what-we-do .line-bar {
+  width: 160px;
+  height: 4px;
+  background: #3498db;
+  margin: 10px 0px 12px 44.5%;
+}
+.what-we-do p {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
 }
