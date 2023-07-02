@@ -102,8 +102,9 @@ a {
   padding: 50px 60px;
   font-size: 40px;
 }
-.what-we-do h4 {
+.what-we-do h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
+  font-size: 40px;
 }
 .what-we-do .line-bar {
   width: 160px;
@@ -115,4 +116,29 @@ a {
   text-decoration: none;
   font-size: 20px;
   text-align: center;
+}
+.what-we-do .row {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+.what-we-do .icon-box {
+  text-align: center;
+  width: 410px;
+  height: 170px;
+  border-radius: 4px;
+  padding: 30px 20px;
+  background: #fff;
+}
+.what-we-do .icon-box h3 {
+  font-size: 35px;
+}
+.what-we-do .icon-box icon {
+  flex-basis: 31%;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+}
+.icon-box:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
