@@ -131,13 +131,16 @@ a {
   background: #fff;
 }
 .what-we-do .icon-box h3 {
-  font-size: 35px;
+  font-size: 32px;
 }
 .what-we-do .icon-box icon {
   flex-basis: 31%;
   margin-bottom: 5%;
   padding: 20px 12px;
   box-sizing: border-box;
+}
+.what-we-do .icon-box .icon {
+  color: #3498db;
 }
 .icon-box:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
