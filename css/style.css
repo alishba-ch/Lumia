@@ -132,6 +132,7 @@ a {
 }
 .what-we-do .icon-box h3 {
   font-size: 32px;
+  font-weight: 700;
 }
 .what-we-do .icon-box icon {
   flex-basis: 31%;
@@ -146,4 +147,17 @@ a {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
+.icon-box h3:hover {
+  color: #3498db;
+}
+
 /*-- about --*/
+.about {
+  padding: 10px 0;
+  display: flex;
+}
+
+.about .about-us h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
