@@ -153,11 +153,16 @@ a {
 
 /*-- about --*/
 .about {
-  padding: 10px 0;
   display: flex;
+}
+.about .image {
+  padding: 50px;
 }
 
 .about .about-us h2 {
   font-weight: 600;
-  font-size: 32px;
+  font-size: 50px;
+}
+.about .about-us .ul .li {
+  display: flex;
 }
