@@ -156,13 +156,17 @@ a {
   display: flex;
 }
 .about .image {
-  padding: 50px;
+  padding: 0 60px;
+}
+.about .about-us {
+  padding-left: 0px;
 }
 
 .about .about-us h2 {
   font-weight: 600;
   font-size: 50px;
 }
-.about .about-us .ul .li {
+.about .about-us .i .ul .li {
   display: flex;
+  padding: 0;
 }
