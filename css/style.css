@@ -156,7 +156,7 @@ a {
   display: flex;
 }
 .about .image {
-  padding: 0 60px;
+  padding: 0 30px 0 60px;
 }
 .about .about-us {
   padding-left: 0px;
@@ -166,7 +166,25 @@ a {
   font-weight: 600;
   font-size: 50px;
 }
-.about .about-us .i .ul .li {
+.about .about-us ul li {
   display: flex;
-  padding: 0;
+  padding: 20px 0 0;
+}
+.about .about-us ul .icon {
+  color: #3498db;
+  padding: 0 10px 0 0;
+}
+.about .about-us .rows {
+  display: flex;
+  padding: 30px 10px 0 0;
+}
+.about .about-us .rows .icon-boxes .icons {
+  color: #3498db;
+}
+.about .about-us .rows .icon-boxes .text {
+  padding: 10px 0;
+}
+.about .about-us .rows .icon-boxes .text h3 {
+  padding-bottom: 10px;
+  font-size: 20px;
 }
