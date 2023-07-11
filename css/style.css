@@ -208,28 +208,113 @@ a {
 
 /*-- skills --*/
 
-.skills {
-  width: 100%;
+.skill-section {
+  width: 95%;
   height: auto;
-  padding: 40px 4%;
+  padding: 80px 60px;
 }
-.skills {
+
+.skill-section .skill-main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 15px;
+  grid-column-gap: 20px;
 }
 
-.skills .list {
-  justify-content: space-between;
-  padding: 15px;
-}
-.skills .list .skill {
+.skill-section .skill-main .skill-bar .info {
   display: flex;
-  padding: 12px;
-
   justify-content: space-between;
+  padding: 0;
 }
-.skills .list .bar {
+.skill-bar .info{
+  font-size: 12px;
+  font-weight: bold;
+}
+.skill-section .skill-main .skill-bar .bar {
   width: 100%;
   height: 10px;
-  background-color: #bcbebe;
+  background-color: #c9c7c7;
+  margin-top: 15px;
+}
+.skill-bar .bar span {
+  width: 715px;
+  height: 10px;
+  position: absolute;
+  background-color: #3498db;
+}
+.skill-bar .bar .html {
+  width: 715px;
+  animation: html 0.9s
+;
+}
+@keyframes html{
+  0%{
+    width: 0;
+  }0px{
+    715px
+  }
+}
+.skill-bar .bar .css {
+  width: 643.5px;
+  animation: html 0.9s
+;
+}
+@keyframes css{
+  0%{
+    width: 0;
+  }0px{
+    643.5px
+  }
+}
+
+.skill-bar .bar .php{
+  width: 572px;
+  animation: html 0.9s
+;
+}
+@keyframes php{
+  0%{
+    width: 0;
+  }0px{
+    572px
+  }
+}
+
+.skill-bar .bar .javascript {
+  width: 536.25px;
+  animation: html 0.3s
+;
+}
+@keyframes javascript{
+  0%{
+    width: 0;
+  }0px{
+    536.25px
+  }
+}
+
+.skill-bar .bar .wordpress-cms {
+  width: 643.5px;
+  animation: html 0.9s
+;
+}
+@keyframes wordpress-cms{
+  0%{
+    width: 0;
+  }0px{
+    643.5px
+  }
+}
+
+.skill-bar .bar .photoshop {
+  width: 393.25px;
+  animation: html 0.9s
+;
+}
+@keyframes photoshop{
+  0%{
+    width: 0;
+  }0px{
+    393.25px
+  }
 }
