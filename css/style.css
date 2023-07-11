@@ -50,11 +50,11 @@ ul {
 }
 
 header {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(https://bootstrapmade.com/demo/templates/Lumia/assets/img/hero-bg.jpg);
-  background-size: 100%;
+  background-position: center;
   background-repeat: none;
   display: flex;
   align-items: center;
@@ -107,10 +107,7 @@ a {
   font-size: 40px;
 }
 .what-we-do h2 {
-  width: 160px;
-  height: 4px;
-  background: #3498db;
-  margin: 10px 0px 12px 44.25%;
+  padding: 15px;
 }
 
 .what-we-do h2::before {
