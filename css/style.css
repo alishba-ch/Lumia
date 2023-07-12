@@ -14,6 +14,12 @@ ul {
 }
 /* Navbar */
 
+.bar{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background-color: #fff;
+}
 .navbar h1 {
   color: #000000;
   font-size: 40px;
@@ -23,7 +29,7 @@ ul {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
 }
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,12 +93,19 @@ a {
   border-radius: 5px;
 }
 
-.navbar ul li .Drop-Down ul {
-  display: block;
+ .Drop-Down ul {
+   display: block;
   position: absolute;
   left: 14px;
+  top: calc(100% + 30px);
   margin: 0;
+  padding: 10px 0;
   z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
 }
 
 /*-- what-we-do --*/
@@ -105,22 +118,23 @@ a {
 .what-we-do h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
   font-size: 40px;
+  padding: 15px;
 }
-.what-we-do h2 {
+.what-we-do .line-bar {
   padding: 15px;
 }
 
-.what-we-do h2::before {
+.what-we-do .line-bar::before {
   content: "";
   position: absolute;
   width: 120px;
   height: 1px;
   background: #ddd;
   bottom: 1px;
-  left: calc(50% - 60px);
+ left: calc(50% - 60px);
 }
 
-.what-we-do h2::after {
+.what-we-do .line-bar::after {
   content: "";
   position: absolute;
   width: 40px;
@@ -230,19 +244,19 @@ a {
   font-size: 12px;
   font-weight: bold;
 }
-.skill-section .skill-main .skill-bar .bar {
+.skill-section .skill-main .skill-bar .bars {
   width: 100%;
   height: 10px;
   background-color: #c9c7c7;
   margin-top: 15px;
 }
-.skill-bar .bar span {
+.skill-bar .bars span {
   width: 715px;
   height: 10px;
   position: absolute;
   background-color: #3498db;
 }
-.skill-bar .bar .html {
+.skill-bar .bars .html {
   width: 715px;
   animation: html 0.9s
 ;
@@ -254,7 +268,7 @@ a {
     715px
   }
 }
-.skill-bar .bar .css {
+.skill-bar .bars .css {
   width: 643.5px;
   animation: html 0.9s
 ;
@@ -267,7 +281,7 @@ a {
   }
 }
 
-.skill-bar .bar .php{
+.skill-bar .bars .php{
   width: 572px;
   animation: html 0.9s
 ;
@@ -280,7 +294,7 @@ a {
   }
 }
 
-.skill-bar .bar .javascript {
+.skill-bar .bars .javascript {
   width: 536.25px;
   animation: html 0.3s
 ;
@@ -293,7 +307,7 @@ a {
   }
 }
 
-.skill-bar .bar .wordpress-cms {
+.skill-bar .bars .wordpress-cms {
   width: 643.5px;
   animation: html 0.9s
 ;
@@ -306,7 +320,7 @@ a {
   }
 }
 
-.skill-bar .bar .photoshop {
+.skill-bar .bars .photoshop {
   width: 393.25px;
   animation: html 0.9s
 ;
