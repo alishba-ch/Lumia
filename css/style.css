@@ -9,6 +9,37 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #3498db;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #57aae1;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
 ul {
   list-style: none;
 }
@@ -337,4 +368,55 @@ a {
   }0px{
     393.25px
   }
+}
+
+/*-- counts --*/
+
+.row{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.row .counts{
+  background: white;
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: #fff;
+}
+
+.row .counts i{
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  background: #3498db;
+  padding: 0;
+  color: #fff;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+}
+
+.row .counts span{
+  font-size: 36px;
+  display: block;
+  font-weight: 500;
+  color: #124364;
+}
+
+.row .counts span:hover{
+  transform: translateX(-50%);
+}
+
+.row .counts p{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family:  sans-serif;
 }
