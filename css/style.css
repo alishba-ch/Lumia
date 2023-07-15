@@ -175,16 +175,21 @@ a {
   left: calc(50% - 20px);
 }
 .what-we-do h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
-  font-size: 40px;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-bottom: 4px;
+  position: relative;
 }
 
-.what-we-do p {
-  text-decoration: none;
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 0;
+.what-we-do p{
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
 }
+
 .what-we-do .row {
   display: flex;
   margin-top: 30px;
@@ -199,18 +204,33 @@ a {
   background: #fff;
 }
 .what-we-do .icon-box h3 {
-  font-size: 32px;
   font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #384046;
+  transition: ease-in-out 0.3s;
 }
-.what-we-do .icon-box icon {
-  flex-basis: 31%;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-}
+
 .what-we-do .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #eaf4fb;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
   color: #3498db;
+  transition: ease-in-out 0.3s;
 }
+
+.what-we-do .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
 .icon-box:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
@@ -231,12 +251,17 @@ a {
 }
 
 .about .about-us h2 {
-  font-weight: 600;
-  font-size: 50px;
+  font-weight: 500;
+  font-size: 40px;
+}
+.about .about-us p{
+  font-weight: 300;
 }
 .about .about-us ul li {
   display: flex;
+  font-size: 15px;
   padding: 20px 0 0;
+  font-weight: 300;
 }
 .about .about-us ul .icon {
   color: #3498db;
@@ -408,10 +433,7 @@ a {
   display: block;
   font-weight: 500;
   color: #124364;
-}
-
-.row .counts span:hover{
-  transform: translateX(-50%);
+  transition: all 0.9s linear;
 }
 
 .row .counts p{
