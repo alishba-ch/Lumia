@@ -177,8 +177,6 @@ a {
 .what-we-do h1 {
   font-size: 32px;
   font-weight: 600;
-  margin-bottom: 0;
-  padding-bottom: 4px;
   position: relative;
 }
 
@@ -251,7 +249,7 @@ a {
 }
 
 .about .about-us h2 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 40px;
 }
 .about .about-us p{
@@ -441,4 +439,54 @@ a {
   margin: 0;
   font-size: 14px;
   font-family:  sans-serif;
+}
+
+/*-- services --*/
+
+.services {
+  text-align: center;
+  padding: 50px 60px;
+  font-size: 40px;
+}
+.services .line-bar {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px ;
+  padding-bottom: 20px;
+  position: relative;
+
+}
+
+.services .line-bar::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+ left: calc(50% - 60px);
+}
+
+.services .line-bar::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background: #3498db;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.services h1 {
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+}
+
+.services p{
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
 }
