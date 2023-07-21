@@ -193,7 +193,7 @@ a {
   margin-top: 30px;
   justify-content: space-between;
 }
-.what-we-do .icon-box {
+.what-we-do .icon-boxes {
   text-align: center;
   width: 410px;
   height: 170px;
@@ -201,7 +201,7 @@ a {
   padding: 30px 20px;
   background: #fff;
 }
-.what-we-do .icon-box h3 {
+.what-we-do .icon-boxes h3 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
@@ -209,7 +209,7 @@ a {
   transition: ease-in-out 0.3s;
 }
 
-.what-we-do .icon-box .icon {
+.what-we-do .icon-boxes .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
@@ -223,17 +223,17 @@ a {
   transition: ease-in-out 0.3s;
 }
 
-.what-we-do .icon-box p {
+.what-we-do .icon-boxes p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.icon-box:hover {
+.icon-boxes:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
-.icon-box h3:hover {
+.icon-boxes h3:hover {
   color: #3498db;
 }
 
@@ -491,15 +491,17 @@ a {
   position: relative;
 }
 
-
-.services-row{
-  display: flexbox;
-}
-
-.services-row .icon-box{
-  padding: 30px;
-  border-radius: 6px;
+.services-row {
   background: #fff;
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 20px 35px; 
+  margin: 0 60px;
+  grid-template-areas: 
+    ". ."
+    ". ."
+    ". .";  
   transition: ease-in-out 0.3s;
 }
 
@@ -508,15 +510,18 @@ a {
   color: #3498db;
   font-size: 40px;
   line-height: 0;
+  margin: 30px 20px 0 30px;
 }
 
 .services-row .icon-box h3{
   color: #384046;
   transition: 0.3s;
+  margin: 30px 0 25px 70px;
+
 }
 
 .services-row .icon-box p{
-  margin-left: 70px;
+  margin: 0 0 35px 90px;
   line-height: 24px;
   font-size: 14px;
 }
