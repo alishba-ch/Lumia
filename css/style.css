@@ -491,8 +491,11 @@ a {
   position: relative;
 }
 
+.box{
+  background-color: #eaf6f8;
+  padding-bottom: 40px;
+}
 .services-row {
-  background: #fff;
   display: grid; 
   grid-template-columns: 1fr 1fr; 
   grid-template-rows: 1fr 1fr 1fr; 
@@ -505,6 +508,9 @@ a {
   transition: ease-in-out 0.3s;
 }
 
+.services-row .icon-box{
+  background-color: #ffff;
+}
 .services-row .icon-box .icons{
   float: left;
   color: #3498db;
