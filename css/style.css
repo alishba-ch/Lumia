@@ -73,6 +73,7 @@ ul {
   white-space: nowrap;
   transition: 0.3s;
 }
+
 .navbar .bi-icons {
   color: #98a3aa;
   margin: 0;
@@ -492,7 +493,7 @@ a {
 }
 
 .box{
-  background-color: #eaf6f8;
+  background-color: #eff4f5;
   padding-bottom: 40px;
 }
 .services-row {
@@ -538,4 +539,53 @@ a {
 
 .services-row .icon-box:hover h3{
   color: #3498db;
+}
+
+/*---- portfolio ----*/
+
+.portfolio {
+  text-align: center;
+  padding: 50px 60px;
+  font-size: 40px;
+}
+.portfolio .line-bar {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px ;
+  padding-bottom: 20px;
+  position: relative;
+
+}
+
+.portfolio .line-bar::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+ left: calc(50% - 60px);
+}
+
+.portfolio .line-bar::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  background: #3498db;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+.portfolio h1 {
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+}
+
+.portfolio p{
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
 }
