@@ -695,3 +695,9 @@ height: 400px;
     height: 220px;
     width: 220px;
   }
+  .container .items-box .team-members p{
+    padding-top: 10px;
+  font-size: 14px;
+  font-style: italic;
+  color: #aaaaaa;
+  }
