@@ -645,7 +645,8 @@ margin: 20px;
 }
 .items-box{
   background-color: #fff;
-text-align: center;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
 width: 380px;
 height: 400px;
 }
@@ -674,4 +675,23 @@ height: 400px;
   color: #999;
   font-weight: 300;
   margin: 0;
+  }
+
+  /*-- team --*/
+  .team{
+    text-align: center;
+    padding: 50px;
+  }
+  .team-members{
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    padding-top: 40px;
+  width: 430px;
+  height: 440px;
+  }
+  .container .items-box .team-members img{
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
   }
