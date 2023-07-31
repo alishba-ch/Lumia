@@ -640,7 +640,7 @@ margin: 20px;
       ". ."
       ". .";  
     transition: ease-in-out 0.3s;
-margin: 100px;   
+margin: 40px 100px;   
  gap: 50px;
 }
 .items-box{
@@ -654,7 +654,7 @@ height: 400px;
 .box .container .items-box .testimonial-items p{
   font-size: 16px;
   font-weight: 300;
-  margin: 40px 20px 0 20px;
+  margin: 40px ;
   padding-bottom: 20px;
   position: relative;
   }
@@ -680,12 +680,12 @@ height: 400px;
   /*-- team --*/
   .team{
     text-align: center;
-    padding: 50px;
+    padding: 50px 0 0 0;
   }
   .team-members{
     background-color: #fff;
     text-align: center;
-    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
     padding-top: 40px;
     width: 410px;
     height: 440px;
@@ -720,6 +720,9 @@ height: 400px;
   }
   
 /*--- contact ---*/
+.box{
+  margin-top: 0;
+}
 .contact{
   text-align: center;
   padding: 50px 60px;
