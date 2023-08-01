@@ -740,3 +740,47 @@ height: 400px;
   padding-bottom: 10px;
   position: relative;
 }
+.info-box{
+  background-color: #fff;
+  height: 140px;
+  width: 1100px;
+  margin: 0 160px;
+  padding: 10px 0;
+}
+.info{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-areas: 
+      ". ."
+      ". ."
+      ". .";  
+    transition: ease-in-out 0.3s;
+    margin: 40px 100px;   
+  }
+.contact .info-box .info i{
+  font-size: 20px;
+  color: #3498db;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #eaf4fb;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.contact .info-box .info h3{
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #384046;
+}
+.contact .info-box .info p{
+  padding: 0 0 0 20px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #65747f;
+}
