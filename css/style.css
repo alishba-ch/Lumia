@@ -793,3 +793,20 @@ height: 400px;
   background-color: #fff;
   margin: 40px 160px;
 }
+.info-entered-box .file{
+  display: flex;
+  height: 40px;
+  box-shadow: none;
+  padding: 35px 0 0 21px;
+  gap: 18px;
+}
+.info-entered-box .file input{
+  width: 520px;
+}
+.info-entered-box .file .srch{
+font-size: 14px;  
+padding: 10px;
+}
+input:hover{
+border-color: #75b6e2;
+}
