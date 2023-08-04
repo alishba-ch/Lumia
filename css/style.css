@@ -758,8 +758,9 @@ height: 400px;
     transition: ease-in-out 0.3s;
     margin: 40px 70px;   
   }
-  .location p{
-  padding-left: 3px;
+  .info-box .info p,h3{
+    float: left;
+    margin-left: 15px;
   }
 .contact .info-box .info i{
   font-size: 20px;
@@ -795,7 +796,7 @@ height: 400px;
 }
 .info-entered-box .file{
   display: flex;
-  height: 40px;
+  height: 45px;
   box-shadow: none;
   padding: 35px 0 0 21px;
   gap: 18px;
@@ -803,10 +804,38 @@ height: 400px;
 .info-entered-box .file input{
   width: 520px;
 }
-.info-entered-box .file .srch{
+ .srch{
 font-size: 14px;  
 padding: 10px;
 }
 input:hover{
 border-color: #75b6e2;
+}
+.info-entered-box .subject{
+   display: flex;
+  height: 45px;
+    padding: 20px 0 0 21px;
+}
+.info-entered-box .subject input{
+  width: 98.1%;
+}
+.info-entered-box .text{
+   display: flex;
+  height: 130px;
+  padding: 20px 0 15px 21px;
+}
+.info-entered-box .text input{
+  width: 98.1%;
+}
+.info-entered-box button{
+  background: #3498db;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.info-entered-box button:hover {
+  background: #5faee3;
 }
