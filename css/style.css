@@ -646,7 +646,7 @@ margin: 40px 100px;
 .items-box{
   background-color: #fff;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  text-align: center;
+text-align: center; 
 width: 380px;
 height: 400px;
 }
@@ -746,7 +746,7 @@ height: 400px;
   width: 1100px;
   margin: 10px 160px;
   padding: 10px 0;
-}
+  border-radius: 4px;}
 .info{
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -759,9 +759,12 @@ height: 400px;
     margin: 40px 70px;   
   }
   .info-box .info p,h3{
-    float: left;
     margin-left: 15px;
   }
+  .location{
+padding: 10px 0 0 15px;  
+text-align: left;
+}
 .contact .info-box .info i{
   font-size: 20px;
   color: #3498db;
@@ -778,13 +781,13 @@ height: 400px;
 .contact .info-box .info h3{
   font-size: 22px;
   font-weight: 600;
+  margin: 0 100px 5px 15px;
   margin-bottom: 5px;
   color: #384046;
 }
 .contact .info-box .info p{
   padding: 0 0 0 20px;
-  margin-left: 2px;
-  margin-bottom: 0;
+  margin: 2px 0 0 0px;
   font-size: 14px;
   color: #65747f;
 }
@@ -804,7 +807,7 @@ height: 400px;
 .info-entered-box .file input{
   width: 520px;
 }
- .srch{
+.srch{
 font-size: 14px;  
 padding: 10px;
 }
