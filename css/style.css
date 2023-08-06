@@ -240,8 +240,14 @@ a {
   font-weight: 300;
 }
 .about .about-us ul .icon {
-  color: #3498db;
   padding: 0 10px 0 0;
+}
+.about .about-us ul .icon i{
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 22px;
+  color: #3498db;
 }
 .about .about-us .rows {
   display: flex;
@@ -744,8 +750,8 @@ height: 400px;
   background-color: #fff;
   height: 140px;
   width: 1100px;
-  margin: 10px 160px;
-  padding: 10px 0;
+  margin: 15px 160px;
+  padding: 8px 0;
   border-radius: 4px;}
 .info{
   display: grid;
@@ -758,15 +764,14 @@ height: 400px;
     transition: ease-in-out 0.3s;
     margin: 40px 70px;   
   }
-  .info-box .info p,h3{
-    margin-left: 15px;
+  .info-entered-box p,h5{
+padding-left: 20px;   
+ text-align: left;
   }
-  .location{
-padding: 10px 0 0 15px;  
-text-align: left;
-}
+  
 .contact .info-box .info i{
   font-size: 20px;
+  margin-right: 20px;
   color: #3498db;
   float: left;
   width: 44px;
@@ -778,7 +783,7 @@ text-align: left;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
 }
-.contact .info-box .info h3{
+.contact .info-box .info h5{
   font-size: 22px;
   font-weight: 600;
   margin: 0 100px 5px 15px;
