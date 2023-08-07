@@ -790,10 +790,11 @@ padding-left: 20px;
   margin-bottom: 5px;
   color: #384046;
 }
-.contact .info-box .info p{
+.contact .info-box .info p,p{
   padding: 0 0 0 20px;
   margin: 2px 0 0 0px;
   font-size: 14px;
+  text-align: left;
   color: #65747f;
 }
 .info-entered-box{
@@ -846,4 +847,12 @@ border-color: #75b6e2;
 
 .info-entered-box button:hover {
   background: #5faee3;
+}
+.lumia{
+  margin: 100px;
+}
+.lumia h4{
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 100px 5px 20px;
 }
