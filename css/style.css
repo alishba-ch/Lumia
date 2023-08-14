@@ -23,7 +23,8 @@ list-style: none;
 }
 .navbar h1 {
   color: #000000;
-  font-size: 40px;
+  font-size: 38px;
+  font-weight: 400;
   margin:  0 400px 0 60px;
   font-display: auto;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
@@ -779,6 +780,10 @@ height: 400px;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
  }
+ .info-box .info .icon-bi:hover{
+  background: #3498db;
+  color: #fff;
+ }
  .info-box .info .paragraph{
 display: grid; 
 float: left;
@@ -786,11 +791,14 @@ float: left;
  .info-box .info .paragraph h5{
   font-size: 22px;
 font-weight: 600;
-  margin-bottom: 5px;
+  margin-bottom: 5px ;
+  float: left;
   color: #384046;
  }
- .info-box .info .paragraph p{
+ .info-box .info .paragraph li{
   margin-bottom: 0;
+  list-style: none;
+  margin-left: 15px;
   font-size: 14px;
   color: #65747f;
  }
@@ -835,9 +843,40 @@ font-weight: 600;
  .info-entered-box  .btn{
   background: #3498db;
   border: 0;
-  padding: 10px 24px;
+  padding: 15px 34px;
   color: #fff;
+  font-size: 16px;
   transition: 0.4s;
   border-radius: 4px;
  }
- 
+ .info-entered-box .btn:hover{
+  background: #5faee3;
+ }
+ .container .details{
+  list-style: none;
+  display: flex;
+  padding: 10px 0px;
+    margin-top: 10px;
+ }
+
+ .container .details .lumia {
+  margin-right: 150px;
+ }
+ .container .details .lumia h4{
+  font-size: 36px;
+  font-weight: 400;
+ }  
+ .container .details .lumia li{
+  margin-top: 10px ;
+  font-size: 14px;
+  color: #65747f; 
+  font-weight: 300;
+}
+.container .details .skil{
+  display: flex;
+  gap: 150px;
+}
+.container .details .skil h3{
+  font-size: 14px;
+  font-weight: 700;
+}
