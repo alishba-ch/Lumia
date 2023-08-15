@@ -840,6 +840,8 @@ font-weight: 600;
   width: 1100px;
     padding:  10px;
  }
+ 
+
  .info-entered-box  .btn{
   background: #3498db;
   border: 0;
@@ -863,7 +865,7 @@ font-weight: 600;
   margin-right: 150px;
  }
  .container .details .lumia h4{
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 400;
  }  
  .container .details .lumia li{
@@ -872,9 +874,8 @@ font-weight: 600;
   color: #65747f; 
   font-weight: 300;
 }
-.container .details .skil{
-  display: flex;
-  gap: 150px;
+.container .details .our-services{
+  margin: 0px 120px;
 }
 .container .details .skil h3{
   font-size: 14px;
