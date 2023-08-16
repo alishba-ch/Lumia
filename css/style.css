@@ -868,16 +868,35 @@ font-weight: 600;
   font-size: 30px;
   font-weight: 400;
  }  
+ 
  .container .details .lumia li{
   margin-top: 10px ;
   font-size: 14px;
   color: #65747f; 
   font-weight: 300;
+ }
+.container .details h3{
+  font-size: 16px;
+  font-weight: bold;
+  color: #444444;
+  position: relative;
+  padding-bottom: 12px;
 }
-.container .details .our-services{
-  margin: 0px 120px;
+.container .details li i{
+  padding-right: 2px;
+  color: #3498db;
+  font-size: 18px;
+  line-height: 1;
 }
-.container .details .skil h3{
-  font-size: 14px;
-  font-weight: 700;
+.container .details li{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.container .details .useful-links{
+  margin-right: 130px;
+}
+.container .details li:hover{
+  text-decoration: none;
+  color: #3498db;
 }
