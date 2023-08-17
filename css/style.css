@@ -879,24 +879,31 @@ font-weight: 600;
   font-size: 16px;
   font-weight: bold;
   color: #444444;
-  position: relative;
   padding-bottom: 12px;
 }
 .container .details li i{
   padding-right: 2px;
+  font-size: 10px;
   color: #3498db;
   font-size: 18px;
-  line-height: 1;
 }
 .container .details li{
   padding: 10px 0;
   display: flex;
-  align-items: center;
 }
 .container .details .useful-links{
   margin-right: 130px;
 }
-.container .details li:hover{
+.container .details li a:hover{
   text-decoration: none;
   color: #3498db;
+}
+.container .details li a{
+  color: #777777;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+.container .details .our-services{
+  
 }
