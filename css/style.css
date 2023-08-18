@@ -862,7 +862,7 @@ font-weight: 600;
  }
 
  .container .details .lumia {
-  margin-right: 150px;
+  margin-right: 100px;
  }
  .container .details .lumia h4{
   font-size: 30px;
@@ -892,7 +892,7 @@ font-weight: 600;
   display: flex;
 }
 .container .details .useful-links{
-  margin-right: 130px;
+  margin-right: 110px;
 }
 .container .details li a:hover{
   text-decoration: none;
@@ -905,5 +905,18 @@ font-weight: 600;
   display: inline-block;
 }
 .container .details .our-services{
-  
+  margin-right: 100px;
+}
+.container .details .box{
+  width: 370px;
+  height: 250px;
+}
+
+.box .icons i{
+  font-size: 30px;
+  background: #3498db;
+  padding: 0;
+  color: #fff;
+  border-radius: 50px;
+  display: inline;
 }
