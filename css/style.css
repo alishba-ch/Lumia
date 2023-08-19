@@ -910,13 +910,31 @@ font-weight: 600;
 .container .details .box{
   width: 370px;
   height: 250px;
+  gap: 60px;
+  background-color: #fff;
 }
 
-.box .icons i{
-  font-size: 30px;
+.box .footer{
+  height: 100px;
+  display: flex;
+  margin-top: 15px;
+}
+.box .footer .icons{
+  gap: 10px;
+margin: 45px 10px;
+}
+.box .footer .icons i{
+  font-size: 14px;
   background: #3498db;
   padding: 0;
   color: #fff;
   border-radius: 50px;
-  display: inline;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+.box .footer .credits {
+  margin: 50px 800px 40px 100px;
 }
