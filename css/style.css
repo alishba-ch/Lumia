@@ -860,7 +860,10 @@ font-weight: 600;
   padding: 10px 0px;
     margin-top: 10px;
  }
-
+.data .container{
+  background-color: #fff;
+  height: 400px;
+}
  .container .details .lumia {
   margin-right: 100px;
  }
@@ -883,7 +886,6 @@ font-weight: 600;
 }
 .container .details li i{
   padding-right: 2px;
-  font-size: 10px;
   color: #3498db;
   font-size: 18px;
 }
@@ -937,4 +939,7 @@ margin: 45px 10px;
 }
 .box .footer .credits {
   margin: 50px 800px 40px 100px;
+}
+.box .footer .credits a{
+  color: #000000;
 }
