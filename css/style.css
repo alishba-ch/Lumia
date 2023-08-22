@@ -915,6 +915,35 @@ font-weight: 600;
   gap: 60px;
   background-color: #fff;
 }
+.box .newsletter from{
+margin-top: 55px;
+}
+ .box .search .srch {
+  font-family: "Times New Roman";
+  width: 240px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #3498db;
+  margin-top: 35px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.box .search .btn {
+  width: 100px;
+  height: 40px;
+  background: #3498db;
+  border: 2px solid #3498db;
+  margin-top: 35px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
 
 .box .footer{
   height: 100px;
