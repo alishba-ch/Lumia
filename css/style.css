@@ -784,10 +784,7 @@ height: 400px;
   background: #3498db;
   color: #fff;
  }
- .info-box .info .paragraph{
-display: grid; 
-float: left;
-}
+ 
  .info-box .info .paragraph h5{
   font-size: 22px;
 font-weight: 600;
@@ -840,8 +837,21 @@ font-weight: 600;
   width: 1100px;
     padding:  10px;
  }
- 
-
+ .location .paragraph .box{
+  text-align: left;
+  }
+.email .paragraph .box{
+text-align: left;
+}
+.paragraph .box h5{
+  margin-left: 16px;
+}
+.call .paragraph .box{
+  text-align: left;
+  }
+  .paragraph .box li{
+display: block;
+  }
  .info-entered-box  .btn{
   background: #3498db;
   border: 0;
