@@ -982,3 +982,12 @@ margin: 45px 10px;
 .box .footer .credits a{
   color: #000000;
 }
+.box .footer .credits a{
+color: #3498db;
+}
+.box .footer .credits span{
+  font-size: 14px;
+}
+.box .footer .credits p{
+  margin-bottom: 6px;
+}
